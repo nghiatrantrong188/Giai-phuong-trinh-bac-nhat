@@ -7,7 +7,7 @@ namespace GiaiPhuongTrinhBacNhat
         static void Main(string[] args)
         {
             Console.WriteLine("Giai Phuong Trinh Bac Nhat");
-            Console.WriteLine("Cho mot bien a = a * x + b = 0', xin hay nhap:");
+            Console.WriteLine("Cho phuong trinh a = a * x + b = 0', xin hay nhap:");
             Console.Write("a: ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("b: ");
@@ -15,7 +15,7 @@ namespace GiaiPhuongTrinhBacNhat
             if (a != 0)
             {
                 double solution = -b / a;
-                Console.Write("The solution is: {0}!", solution);
+                Console.Write("Phuong trinh co nghiem la: {0}!", solution);
             }
             else
             {
